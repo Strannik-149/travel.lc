@@ -1,0 +1,734 @@
+.wrapper-header,
+.wrapper-main,
+.wrapper-feature-testimonial,
+.wrapper-quote
+{
+	width: 100%;
+}
+
+.wrapper-header {
+	height: 1100px;
+	background: url("../img/background-header.png") no-repeat top center;
+}
+.wrapper-main, {
+	background-color: #fff;
+}
+.wrapper-feature-testimonial {
+	background-color: #eee;
+}
+.wrapper-quote-service {
+	height: 624px;
+	background: url("../img/background-quote.png") no-repeat top center;
+}
+
+	/* ------------------------------------- */
+
+.header,
+.container-navigation,
+.container-feature,
+.container-about,
+.container-quote-service,
+.container-team,
+.container-form,
+.footer
+{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.container-testimonial {
+	width: 945px;
+	margin: 0 auto;
+}
+
+.container-portfolio {
+	width: 1280px;
+	margin: 0 auto;
+	margin-top: -57px;
+	background-color: #ffffff;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+	/* Заголовок 1-го уровня и параграф с описанием */
+.hgroup__h1 {
+	font-size: 90px;
+	font-family: "Existence";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 110px 0 90px;
+
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+.hgroup__h1-h3_color {
+	color: #9f449b;
+}
+.hgroup__h1:hover {
+	text-shadow: -2px -2px #9f449b,
+    			 -2px 2px #9f449b,
+				  2px -2px #9f449b,
+				  2px 2px #9f449b;
+}
+
+.header-title {
+	font-size: 31px;
+	font-family: "Lato";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding-bottom: 30px;
+}
+.header-title_width-small {
+	width: 740px;
+    margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.2;
+	padding-bottom: 115px;
+}
+
+	/* Меню в блоке header. Позиционирование на странице */
+.header-menu {
+	height: 478px;
+	overflow: hidden;
+}
+.header-menu-position {
+	display: inline-block;
+}
+.position__box-one {
+	float: left;
+	padding-top: 205px;
+}
+.position__box-two {
+	padding-bottom: 204px;
+}
+.position__box-three {
+	float: right;
+	padding-top: 205px;
+}
+.position__box-four {
+	width: 86px;
+	margin: 0 auto;
+    display: block;
+}
+
+		/* Кнопка(иконка) меню */
+.header-menu__button {
+	width: 169px;
+	height: 182px;
+	display: inline-block;
+	background-image: url("../img/nav-header-button.png");
+	background-repeat: no-repeat;
+}
+		/* Модификатор отступа кнопки от кнопки справа */
+.button_margin-right {
+	margin-right: 30px;
+}
+.header-menu__button-link {
+	display: block;
+	text-decoration: none;
+}
+.header-menu__button-img {
+	padding: 40px 57px 0;
+}
+.header-menu__button-title {
+	font-size: 18px;
+	font-family: "Lato";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 20px 0 51px;
+}
+		/* При наведении на картинку меню в блоке header-nav */
+.header-menu__button:hover, focus {
+	background-image: url("../img/nav-header-hover.png");
+}
+
+	/* Кнопка scroll в блоке nav-header */
+.header-menu__button-scroll {
+	width: 86px;
+	height: 93px;
+	display: inline-block;
+	background-image: url("../img/nav-header-button-scroll.png");
+	background-repeat: no-repeat;
+}
+.img_padding {
+	padding: 40px 28px 35px;
+}
+		/* При наведении на картинку scroll в меню блока header-nav */
+.header-menu__button-scroll:hover, focus {
+	background-image: url("../img/nav-header-hover-scroll.png");
+}
+
+/* ----------------------- БЛОК NAVIGATION ------------------------------- */
+.container-navigation {
+	height: 141px;
+}
+.nav {
+	padding-top: 71px;
+	float: right;
+}
+.nav__list {
+	padding-right: 25px;
+	display: inline-block;
+}
+.nav__link {
+	display: inline-block;
+	text-decoration: none;
+}
+.nav__item {
+	font-size: 16px;
+    font-family: "Lato";
+    color: #676767;
+    font-weight: 700;
+}
+	/* При наведении на меню в блоке navigation */
+.nav__item:hover, focus {
+	color: #9f449b;
+}
+/* Заголовок 3-го уровня */
+.hgroup__h3 {
+	font-size: 30px;
+	font-family: "Existence";
+	color: rgb(103, 103, 103);
+	float: left;
+	font-weight: bold;
+	padding-top: 59px;
+
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+/* ------------------------------- Блок feature ----------------------------------- */
+.container-feature {
+	height: 794px;
+	background: #eee;
+}
+
+.feature-box {
+	float: left;
+	width: 262px;
+	height: 400px;
+	margin: 167px 30px 0 0;
+}
+.margin-right_none {
+	margin-right: 0;
+}
+
+.feature-box__img {
+	width: 173px;
+	height: 187px;
+	display: inline-block;
+	margin: 0 0 43px 43px;
+	background-repeat: no-repeat;
+}
+
+.img-heart {
+	background-image: url("../img/feature-heart.png");
+}
+.img-diamond {
+	background-image: url("../img/feature-diamond.png");
+}
+.img-cup {
+	background-image: url("../img/feature-cup.png");
+}
+.img-phone {
+	background-image: url("../img/feature-phone.png");
+}
+
+.img-heart:hover {
+	background-image: url("../img/feature-heart-hover.png");
+}
+.img-diamond:hover, focus {
+	background-image: url("../img/feature-diamond-hover.png");
+}
+.img-cup:hover, focus {
+	background-image: url("../img/feature-cup-hover.png");
+}
+.img-phone:hover, focus {
+	background-image: url("../img/feature-phone-hover.png");
+}
+	/* Заголовок 4-го уровня */
+.hgroup__h4 {
+	font-size: 24px;
+	font-family: "Lato";
+	font-weight: 300;
+	color: rgb(103, 103, 103);
+	text-align: center;
+
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+.feature-box__item {
+	font-size: 16px;
+	font-family: "Lato";
+	color: rgb(103, 103, 103);
+	text-align: center;
+	line-height: 1.5;
+	padding-top: 45px;
+	font-weight: 300;
+}
+
+/* ---------------------------------- БЛОК ABOUT -------------------------------------------------- */
+.container-about {
+	height: 1026px;
+}
+.about {
+	display: inline-block;
+} 
+
+	/* Заголовок 2-го уровня */
+.hgroup__h2 {
+	font-size: 48px;
+	font-family: "Existence";
+	color: rgb(103, 103, 103);
+	text-align: center;
+	padding: 158px 0 178px;
+	position: relative;
+}
+
+/* Углы над заголовком 2-го уровня */
+.border-cornet-left {
+    width: 30px;
+    height: 30px;
+    border-left: 2px solid #c186be;
+    border-bottom: 2px solid #c186be;
+    position: absolute;
+    top: 189px;
+    left: 433px;
+}
+.border-cornet-right {
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid #c186be;
+    border-right: 2px solid #c186be;
+    position: absolute;
+    top: 127px;
+    right: 433px;
+}
+
+.about-img {
+	float: left;
+	padding-right: 34px;
+}
+
+.about__item {
+	font-size: 16px;
+	font-family: "Lato";
+	color: rgb(103, 103, 103);
+	line-height: 2.25;
+	text-align: left;
+	padding-top: 20px;
+	font-weight: 300;
+	padding-bottom: 103px;
+}
+	/* Кнопка в блоке ABOUT */
+.about__button {
+	width: 228px;
+	height: 71px;
+	box-shadow: 0 4px 0 #6b2e68;
+	background-color: #9f449b;
+	border-radius: 10px;
+	border: none;
+}
+
+.about__button-link {
+	font-size: 20px;
+	font-family: "Lato";
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: block;
+	padding: 21px;
+	font-weight: 100;
+}
+
+/* ------------------------------------------ БЛОК QUOTE --------------------------- */
+.quote__img {
+	margin: 0 auto;
+    display: block;
+    padding: 152px 0 71px;
+}
+	/* Заголовок 5-го уровня */
+.hgroup__h5 {
+	font-size: 48px;
+	font-family: "Lato";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-weight: 300;
+	width: 750px;
+    margin: 0 auto;
+}
+
+/* ----------------------------------------------- БЛОК TEAM -------------------------- */
+.team {
+	position: relative;
+}
+
+/* ------------ БЛОК SLICK-SLIDER --------------- */
+.wrapper-slider-box {
+	height: 607px;
+	overflow: hidden;
+}
+
+.slider-box {
+	padding-top: 158px;
+}
+
+.slider-box__img {
+	border-radius: 50%;
+	margin: 0 auto;
+}
+		/* Блок с стрелками СЛАЙДЕРА */
+.corner-bottom {
+	width: 64px;
+	height: 70px;
+	position: absolute;
+	top: -158px;
+	z-index: 110;
+	background-repeat: no-repeat;
+}
+.corner-bottom-left {left: 502px;}
+.corner-bottom-right {right: 502px;}
+
+	/* Блок с описанием СЛАЙДЕРА */
+.slider-box-subtitle {
+	width: 170px;
+	margin: 60px auto 0;
+}
+	/* Заголовок 6-го уровня */
+.hgroup__h6 {
+	font-size: 17.201px;
+	font-family: "Lato";
+	color: rgb(72, 72, 72);
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.slider-box-subtitle__item {
+	font-size: 14px;
+	font-family: "Lato";
+	color: rgb(119, 119, 119);
+	padding: 25px 0 32px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.slider-box-subtitle__link {
+	display: inline-block;
+}
+.slider-box-subtitle__social {
+	width: 47px;
+	height: 47px;
+	margin: 0 18px 0;
+	background-repeat: no-repeat;
+}
+.social-facebook {
+	background-image: url("../img/social-facebook.png");
+}
+.social-google {
+	background-image: url("../img/social-google.png");
+}
+
+
+/* ---------------------------------------- Блок EXPERIENCE --------------------------- */
+.box-experience {
+	width: 945px;
+	height: 240px;
+	margin: 0 auto 202px;
+}
+.experience {
+	width: 426px;
+	float: left;
+	margin: 0 46px 54px 0;
+}
+	/* Заголовок 7-го уровня */
+.hgroup__h7 {
+	font-size: 24px;
+	font-family: "Helvetica Neue LT Std";
+	color: rgb(34, 34, 34);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 0.75;
+	text-align: left;
+}
+.experience__item {
+	font-size: 24px;
+	font-family: "Helvetica Neue LT Std";
+	color: rgb(119, 119, 119);
+	text-transform: uppercase;
+	float: right;
+}
+	/* Блок с шкалой прогресса scale */
+.experience-scale {
+	height: 20px;
+	width: 418px;
+	margin-top: 25px;
+	background-color: #f0f0f0;
+	position: relative;
+}
+.scale-color {
+	background-color: #9f449b;
+	position: absolute;
+	margin: 0;
+}
+.color_width-one {
+	width: 368px;
+}
+.color_width-two {
+	width: 312px;
+}
+.color_width-three {
+	width: 299px;
+}
+.color_width-four {
+	width: 343px;
+}
+
+/* ------------------------------------------------- БЛОК SERVICE --------------------------------- */
+.testimonial {
+	padding: 165px 149px 150px 0;
+	padding-right: 149px;
+	display: inline-block;
+}
+.testimonial_padding-none {
+	padding: 0;
+}
+
+.testimonial__item {
+	font-size: 64px;
+	font-family: "Helvetica Neue LT Std";
+	color: rgb(34, 34, 34);
+	text-transform: uppercase;
+	text-align: center;
+}
+.testimonial__item-subtitle {
+	font-size: 16px;
+	font-family: "Helvetica Neue LT Std";
+	color: rgb(119, 119, 119);
+	text-align: center;
+}
+
+	/* Блок с изображением в блоке testimonial */
+.testimonial-img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 45px;
+}
+
+.testimonial-img-description {
+	margin: 0 auto;
+	font-size: 33px;
+	font-family: "Helvetica Neue LT Std";
+	color: rgb(75, 75, 75);
+	text-align: center;
+}
+.testimonial-img-description-subtitle {
+	font-size: 20px;
+	font-family: "Helvetica Neue LT Std";
+	color: rgb(119, 119, 119);
+	font-weight: bold;
+	text-align: center;
+	padding: 45px 0 232px;
+}
+
+/* --------------------------------------------- БЛОК PORTFOLIO ------------------------------- */
+.portfolio-category {
+	margin: 0 auto 70px;
+	width: 400px;
+}
+
+.portfolio-button {
+	width: 82px;
+	height: 36px;
+	border: 1px solid black;
+	border-radius: 7px;
+	display: inline-block;
+	margin-right: 20px;
+	background-color: rgba(255, 255, 255, 0);
+}
+.portfolio-button_margin-none {
+	margin: 0;
+}
+
+	/* При наведении на кнопку в блоке portfolio-button */
+.portfolio-button:hover {
+	border-color: #9f449b;
+	background-color: #9f449b;
+}
+.portfolio-button:hover .portfolio-button__link {
+	color: white;
+} 
+
+.portfolio-button__link {
+	font-size: 16px;
+	font-family: "Helvetica Neue LT Std";
+	color: rgb(34, 34, 34);
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+.portfolio-box-gallery {
+	width: 1129px;
+	margin: 0 auto;
+}
+.w1 {
+	display: inline-block;
+	margin-bottom: 34px;
+}
+
+.box-gallery {
+	width: 360px;
+	height: 360px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.gallery-img-1 {
+	background-image: url("../img/gallery-1.png");
+}
+.gallery-img-2 {
+	background-image: url("../img/gallery-2.png");
+	margin: 0 20px;
+}
+.gallery-img-3 {
+	background-image: url("../img/gallery-3.png");
+}
+.gallery-img-4 {
+	background-image: url("../img/gallery-4.png");
+}
+.gallery-img-5 {
+	background-image: url("../img/gallery-5.png");
+	margin: 0 20px;
+}
+.gallery-img-6 {
+	background-image: url("../img/gallery-6.png");
+}
+
+.gallery-item {
+	font-size: 20px;
+	padding-top: 25px;
+	font-family: "Helvetica Neue LT Std";
+	color: rgb(34, 34, 34);
+	text-align: center;
+}
+.gallery__item-subtitle {
+	font-size: 12px;
+	color: grey;
+	padding-top: 17px;
+}	
+
+	/* Кнопка в блоке portfolio */
+.container-portfolio__button {
+	width: 228px;
+	margin: 26px auto;
+}
+.portfolio__button {
+	width: 228px;
+	height: 71px;
+	box-shadow: 0 4px 0 #6b2e68;
+	background-color: #9f449b;
+	border-radius: 10px;
+	border: none;
+}
+
+.portfolio__button-link {
+	font-size: 20px;
+	font-family: "Lato";
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: block;
+	padding: 21px;
+	font-weight: 100;
+}
+
+
+/* ---------------------------------------- БЛОК FORM ------------------------------------ */
+		/* Блок модификатор скобок над заголовком 2-го уровня */
+.container-form-border-left { top: 196px; left: 415px; }
+.container-form-border-right { top: 120px; right: 418px; }
+
+.contact-form {
+	width: 528px;
+	float: left;
+	padding-right: 99px;
+}
+.contact-form__item {
+	font-size: 18px;
+	font-family: "Helvetica Neue LT Std";
+	color: rgb(34, 34, 34);
+	width: 527px;
+	height: 70px;
+	margin-bottom: 38px;
+	border: 1px solid #c7c7c7;
+    box-shadow: 0 3px 5px -4px black;
+}
+.item-textarea {
+	width: 523px;
+	height: 283px;
+}
+
+::-webkit-input-placeholder {
+	color: #000;
+	padding-left: 27px;
+}
+textarea::-webkit-input-placeholder { 
+ 	padding-top: 27px;
+}
+	/* Блок с описанием блока container-form */
+.container-form__item {
+	width: 513px;
+	float: left;
+	font-size: 18px;
+	font-family: "Helvetica Neue LT Std";
+	color: rgb(75, 75, 75);
+	line-height: 1.333;
+	padding-bottom: 65px;
+}
+.item-subtitle {
+	font-size: 22px;
+	width: 474px;
+	color: rgb(34, 34, 34);
+	font-weight: bold;
+	line-height: 1.364;
+	padding-bottom: 60px;
+}
+.item-subtitle_padding {
+	padding-bottom: 95px;
+}
+		/* Блок с социальными иконками */
+.contact-social__link {
+	text-decoration: none;
+}
+.contact-social-img {
+	width: 79px;
+	height: 79px;
+	padding-right: 35px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+.img-facebook {
+background-image: url("../img/contact-social-facebook.png");
+}
+.img-twitter {
+background-image: url("../img/contact-social-twitter.png");
+}
+.img-google {
+background-image: url("../img/contact-social-google.png");
+}
+
+/* ---------------------------------------------------------- БЛОК FOOTER ---------------------------------------- */
+.footer {
+	height: 178px;
+	margin-top: 160px;
+}
+
+.footer__section {
+	width: 264px;
+	margin: 0 auto;
+}
+.hgroup__h3-footer {
+	font-size: 51px;
+}
+
+
+

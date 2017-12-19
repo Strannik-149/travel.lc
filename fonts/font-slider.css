@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Slick';
+    src: url('slick.eot'); /* IE9 */
+    src: url('slick.woff') format('woff'), /* Современные браузеры */
+         url('slick.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('slick.svg#magistralcbold') format('svg'); /* iOS */
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}

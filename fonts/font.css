@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Existence';
+    src: url('Existence-Light.eot'); /* IE9 */
+    src: url('Existence-Light.woff') format('woff'), /* Современные браузеры */
+         url('Existence-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Existence-Light.svg#magistralcregular') format('svg'); /* iOS */
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.eot'); /* IE9 */
+    src: url('Lato-Regular.woff') format('woff'), /* Современные браузеры */
+         url('Lato-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Lato-Regular.svg#magistralcbold') format('svg'); /* iOS */
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Semibold.eot'); /* IE9 */
+    src: url('Lato-Semibold.woff') format('woff'), /* Современные браузеры */
+         url('Lato-Semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Lato-Semibold.svg#magistralcbold') format('svg'); /* iOS */
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Bold.eot'); /* IE9 */
+    src: url('Lato-Bold.woff') format('woff'), /* Современные браузеры */
+         url('Lato-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Lato-Bold.svg#magistralcbold') format('svg'); /* iOS */
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Black.eot'); /* IE9 */
+    src: url('Lato-Black.woff') format('woff'), /* Современные браузеры */
+         url('Lato-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Lato-Black.svg#magistralcbold') format('svg'); /* iOS */
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Light.eot'); /* IE9 */
+    src: url('Lato-Light.woff') format('woff'), /* Современные браузеры */
+         url('Lato-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Lato-Light.svg#magistralcbold') format('svg'); /* iOS */
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Thin.eot'); /* IE9 */
+    src: url('Lato-Thin.woff') format('woff'), /* Современные браузеры */
+         url('Lato-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Lato-Thin.svg#magistralcbold') format('svg'); /* iOS */
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-ThinItalic.eot'); /* IE9 */
+    src: url('Lato-ThinItalic.woff') format('woff'), /* Современные браузеры */
+         url('Lato-ThinItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Lato-ThinItalic.svg#magistralcbold') format('svg'); /* iOS */
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Hairline.eot'); /* IE9 */
+    src: url('Lato-Hairline.woff') format('woff'), /* Современные браузеры */
+         url('Lato-Hairline.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Lato-Hairline.svg#magistralcbold') format('svg'); /* iOS */
+    font-weight: 500;
+    font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('titilliumwebitalic.eot'); /* IE9 */
+    src: url('titilliumwebitalic.woff') format('woff'), /* Современные браузеры */
+         url('titilliumwebitalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('titilliumwebitalic.svg#magistralcbold') format('svg'); /* iOS */
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}
